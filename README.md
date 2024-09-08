@@ -26,7 +26,7 @@ Default Windows logs fall short in providing the visibility needed for real secu
 
 In a remote, resource-constrained environment where software installation (such as EDR & Sysmon) and real-time log forwarding are not feasible, deploying an advanced security-focused audit policy enables extensive threat detection while offering robust forensic capabilities. This approach is essential for legacy systems or environments with limited connectivity and hardware constraints.
 # Advanced Security Auditing and Forensic Logging Configuration
-## *Strengths:*
+### *Strengths:*
 
 - **Comprehensive Event Logging**: Provides detailed logs on user activity, file access, and system configuration changes, which can be analysed post-incident for forensic investigation.
 - **Monitors Critical Processes:** Logs unauthorised processes, script execution and suspicious network connections.
@@ -34,7 +34,7 @@ In a remote, resource-constrained environment where software installation (such 
 - **Tamper Detection**: Tracks any modifications to the audit policy itself, ensuring that attempts to disable or bypass logging mechanisms are detected.
 - **Evidence Retention**: The policy increases log storage capacity to prevent overwriting, ensuring critical logs are retained locally and can be retrieved for forensic analysis, preserving essential evidence for investigations.
 - **No Installation Overhead:** Uses native logging tools, avoiding software installation and performance impacts.
-## *Outcome:*
+### *Outcome:*
 
 - **Broad Threat Detection:** The policy covers most threats without response capabilities.
 - **Forensic Logging:** Logs are stored locally and can be forwarded to a SIEM for analysis when connectivity allows.
@@ -42,7 +42,7 @@ In a remote, resource-constrained environment where software installation (such 
 
 # Execution
 
-## Local
+### Local
 
 Follow the steps below to execute the script on a local environment.
 
@@ -54,7 +54,7 @@ Follow the steps below to execute the script on a local environment.
 Set-ExecutionPolicy Bypass -Scope Process -Force; .\Advanced_Security_Audit_Config.ps1
 ```
 
-## Remote
+### Remote
 
 The recommended method to execute this script is via Windows Remote Management (WinRM) using the `Invoke-Command` cmdlet for remote execution on target machines.
 
