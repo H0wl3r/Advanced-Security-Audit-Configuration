@@ -32,7 +32,7 @@
         .\Advanced_Security_Audit_Config.ps1
 
     .LINK
-        https://github.com/h0wl3r/Advanced_Security_Auditing_&_Forensic_Logging_Configuration
+        https://github.com/H0wl3r/Advanced-Security-Audit-Configuration
 #>
 
 # Check script is running as administrator
