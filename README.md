@@ -46,11 +46,13 @@ In a remote, resource-constrained environment where software installation (such 
 
 Follow the steps below to execute the script on a local environment.
 
-   1) Open a PowerShell window as administrator
-   2) Allow script execution by running command `Set-ExecutionPolicy Bypass -Scope Process -Force`.
-   3) Execute the script by running `.\Advanced_Security_Audit_Config.ps1`
+1. Open a PowerShell window as administrator.
+2. Allow script execution by running command `Set-ExecutionPolicy Bypass -Scope Process -Force`.
+3. Execute the script by running `.\Advanced_Security_Audit_Config.ps1`
 
-`Set-ExecutionPolicy Bypass -Scope Process -Force; .\Advanced_Security_Audit_Config.ps1`
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; .\Advanced_Security_Audit_Config.ps1
+```
 
 ## Remote
 
@@ -60,7 +62,9 @@ The recommended method to execute this script is via Windows Remote Management (
 2. Confirm that you have Domain Admin permissions to run the script on remote machines.
 3. Execute the script using the `Invoke-Command` cmdlet.
 
-`Invoke-Command -ComputerName "RemoteComputerName" -FilePath "C:\Path\To\Advanced_Security_Audit_Config.ps1" -Credential (Get-Credential)`
+```
+Invoke-Command -ComputerName "RemoteComputerName" -FilePath "C:\Path\To\Advanced_Security_Audit_Config.ps1" -Credential (Get-Credential)
+```
 
 # Compatibility
 
