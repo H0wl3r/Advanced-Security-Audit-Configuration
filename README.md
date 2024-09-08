@@ -5,7 +5,7 @@
 - [About](#About)
 - [Why](#Why)
 - [Scope](#Scope)
-- [Advanced Security Auditing and Forensic Logging Configuration](#Advanced Security Auditing and Forensic Logging Configuration)
+- [Advanced Security Auditing and Forensic Logging Configuration](#Advanced-Security-Auditing-an-Forensi-Logging-Configuration)
 	- [Strengths](#Strengths)
 	- [Outcome](#Outcome)
 - [Execution](#Execution)
