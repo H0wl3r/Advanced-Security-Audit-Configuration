@@ -1,6 +1,5 @@
 # Advanced Security Auditing and Forensic Logging Configuration
-
-# Contents
+</br>
 
 - [About](#About)
 - [Why](#Why)
@@ -15,6 +14,7 @@
 - [Audit Logs](#audit-logs)
 - [Audit Policies](#audit-polices)
 - [References](#References)
+</br>
 
 # About
 
